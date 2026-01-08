@@ -1,15 +1,17 @@
 /*
-PROYECTO: Conjuntos
 NOMBRE: Diego Valencia Figueroa
-DESCRIPCIÓN: Implementar las operaciones de conjuntos.
+PROYECTO: Conjuntos
+FECHA: 30 de octubre del 2025
+FUNCIÓN:Implementar con métodos las operaciones entre conjuntos.
  */
 import java.util.*;
 
 public class Main{
     public static void main(String[] args){
         //Conjunto <String> a = new Conjunto<>(Arrays.asList("Lunes", "Martes", "Miercoles", "Jueves", "Viernes"));
-        Conjunto <String> a = new Conjunto<>(Arrays.asList("Lunes", "Martes", "Miercoles", "Jueves", "Viernes"));
+        Conjunto <String> a = new Conjunto<>();
         Conjunto <String> b = new Conjunto<>(Arrays.asList("Viernes", "Sabado", "Domingo"));
+        //Conjunto <String> b = new Conjunto<>();
         Conjunto <String> u = new Conjunto<>(Arrays.asList("Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"));
         //Conjunto <String> c = new Conjunto<>();
         System.out.println("1. a vacio: "+a.vacio());

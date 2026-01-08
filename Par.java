@@ -1,3 +1,9 @@
+/*
+NOMBRE: Diego Valencia Figueroa
+PROYECTO: Conjuntos
+FECHA: 30 de octubre del 2025
+FUNCIÓN:Implementar con métodos las operaciones entre conjuntos.
+ */
 public class Par<A, B>{
     private final A PRIMERO;
     private final B SEGUNDO;

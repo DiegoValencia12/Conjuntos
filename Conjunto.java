@@ -1,7 +1,8 @@
 /*
-PROYECTO: Conjuntos
 NOMBRE: Diego Valencia Figueroa
-DESCRIPCIÓN: Implementar las operaciones de conjuntos.
+PROYECTO: Conjuntos
+FECHA: 30 de octubre del 2025
+FUNCIÓN:Implementar con métodos las operaciones entre conjuntos.
  */
 import java.util.*;
 public class Conjunto<T> implements Interface<T>{
